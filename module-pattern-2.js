@@ -1,5 +1,5 @@
 /**
- * Created by pahme2 on 10/15/14.
+ * Module Pattern Style 2
  */
 
 // https://coderwall.com/p/m23ubw?
