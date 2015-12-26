@@ -1,12 +1,14 @@
-/*-------------------------------------------------------------------------------------------------------*/
-//Furthermore, if I want to call one method from another,
-// I have to call it preceded by the myApplication name.
-// So instead, I prefer simply to return pointers to the
-// elements that I want to make public. This even allows
-// me to shorten the names for outside use: I've called
-// this revealing module pattern.
 
-// REVEALING MODULE PATTERN
+/**
+ * REVEALING MODULE PATTERN
+ *
+ * Furthermore, if I want to call one method from another,
+ * I have to call it preceded by the myApplication name.
+ * So instead, I prefer simply to return pointers to the
+ * elements that I want to make public. This even allows
+ * me to shorten the names for outside use:
+ * I've called this revealing module pattern.
+ */
 
 var myApplication = function(){
   var name = 'Chris';

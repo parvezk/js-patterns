@@ -1,5 +1,12 @@
+/**
+ * Prototypal Inheritance Pattern
+ *
+ * Prototype-based programming is a style of object-oriented programming
+ * in which behaviour reuse (known as inheritance) is performed via a
+ * process of cloning existing objects that serve as prototypes.
+ *
+ */
 
-// PROTOTYPAL INHERITANCE PATTERN________________________________________
 
 function Slider(param) {
 

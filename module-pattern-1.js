@@ -1,5 +1,6 @@
-
-// MODULE PATTERN
+/**
+ * Module Pattern Style 1
+ */
 
 // The module pattern
 var feature = (function() {

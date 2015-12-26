@@ -1,4 +1,6 @@
-/*----------------*/
+/**
+ * Dispatch Table Pattern
+ */
 
 //DISPATCH TABLE PATTERN
 

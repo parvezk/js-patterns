@@ -1,5 +1,6 @@
-//Pub-Sub Pattern
-/*-------------*/
+/**
+ * Pub-Sub Pattern / Observer Pattern
+ */
 
 (function($) {
 

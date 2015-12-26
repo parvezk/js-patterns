@@ -1,11 +1,11 @@
-
-/*-------------------------------------------------------------------------------------------------------*/
-// SINGLETON / MODULE PATTERN
-// If you need to make some of the things reachable to the
-// outside, you need to return them to the outside world
-// to make them properties of myApplication, This is called
-// a module pattern or singleton
-
+/**
+ * SINGLETON / MODULE PATTERN
+ *
+ * If you need to make some of the things reachable to the
+ * outside, you need to return them to the outside world
+ * to make them properties of myApplication, This is called
+ * a module pattern or singleton
+ */
 
 var myApplication = function(){
   var name = 'Chris';
