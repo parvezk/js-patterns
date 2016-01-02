@@ -21,10 +21,17 @@ var myApplication = function(){
   }
 }();
 
-myApplication.createMember(), myApplication.getMemberDetails() //now works.
+myApplication.createMember()
+myApplication.getMemberDetails() //now works.
 
-// SINGLETON PATTERNS
-// The following structure allows the singleton to have private members and methods by encapsulating variable and function declarations inside a closure, and exposing only those that are to be publicly accessible.
+/**
+ * SINGLETON PATTERNS
+   The following structure allows the singleton to have private
+   members and methods by encapsulating variable and function
+   declarations inside a closure, and exposing only those that
+   are to be publicly accessible.
+ */
+
 var mySingleton = function(){
  
     /*private variables and methods (not accessible directly through the  mySingleton namespace): */
@@ -70,7 +77,11 @@ var mySingleton = (function(){
  
 mySingleton.publicMethod();
 
-//If you want to save resources and instantiate the singleton only when it's needed you can put it's instantiation code inside another constructor function like in this example:
+/**
+ * If you want to save resources and instantiate the singleton only
+ * when it's needed you can put it's instantiation code inside another
+ * constructor function like in this example:
+ * */
 
 var Singleton =(function(){
   var instantiated;
