@@ -11,20 +11,26 @@
  */
 
 var myApplication = function(){
-  var name = 'Chris';
-  var age = '34';
-  var status = 'single';
+
+  var name = 'Chris',
+      age = '34',
+      status = 'single';
+
   function createMember(){
     // [...]
   }
+
   function getMemberDetails(){
     // [...]
   }
+
   return{
     create:createMember,
     get:getMemberDetails
   }
+
 }();
 
-myApplication.get(), myApplication.create() //now works.
+myApplication.get();
+myApplication.create() //now works.
 
