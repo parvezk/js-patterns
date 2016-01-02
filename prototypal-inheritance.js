@@ -7,7 +7,6 @@
  *
  */
 
-
 function Slider(param) {
 
     var defaults = {},  //private property - private scope
@@ -40,6 +39,7 @@ Slider.prototype = {
 }; // end of prototype
 
 $(function() { // equal to $(document).ready(function(){})
+
     //object instanation and direct function call 
     var someSlider = new Slider({
         displayimg: "ul.largeImg",
@@ -54,10 +54,10 @@ function Human() {
     this.setName = function (fname, lname) {
         this.fname = fname;
         this.lname = lname;
-    }
+    };
     this.getFullName = function () {
         return this.fname + " " + this.lname;
-    }
+    };
 }
  
 // Define the Employee class
