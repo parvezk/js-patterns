@@ -86,7 +86,9 @@ $( document ).ready(function() {
 });
 
 // UTILITY FN - THIS IS SINGLETON/MODULE PATTERN TOO
-// this utiltiy object: just called once, executed once, this way, single execution-memory saved; SEAF fires once and assigns to utility var
+// this utiltiy object: just called once, executed once,
+// this way, single execution-memory saved; SEAF fires
+// once and assigns to utility var
 
 var utility = (function(){
     var i = 0;
