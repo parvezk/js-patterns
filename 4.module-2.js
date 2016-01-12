@@ -1,7 +1,7 @@
 /**
  * Module Pattern Style 2
  */
-
+w
 // https://coderwall.com/p/m23ubw?
 // http://toddmotto.com/mastering-the-module-pattern/
 
@@ -10,7 +10,9 @@ var MyApp = {};
 MyApp.MyModule = (function() {
     var privateVariable = 1;
     var publicVariable = 2;
-    var publicFunction = function() {return 3;}
+    var publicFunction = function() {
+        return privateVariable + publicVariable;
+    }
     return {
         publicVariable: publicVariable,
         publicFunction: publicFunction
