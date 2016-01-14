@@ -13,7 +13,3 @@
 10. Factory Pattern
 11. Facade Pattern
 12. Closure Pattern
-
-
-
-

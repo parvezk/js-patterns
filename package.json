@@ -1,0 +1,24 @@
+{
+  "name": "js_patterns",
+  "version": "1.0.0",
+  "description": "1. Observer Pub-Sub 2. Dispatch Table 3. Module Pattern 1 4. Module Pattern 2 5. Revealing Module Pattern 6. Constructor Pattern 7. Function expressions 8. Prototypal Inheritance 9. Object Literal 10. Factory Pattern 11. Facade Pattern 12. Closure Pattern",
+  "main": "1.observer-pub-sub.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt travis -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvezk/js_patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parvezk/js_patterns/issues"
+  },
+  "homepage": "https://github.com/parvezk/js_patterns#readme"
+}

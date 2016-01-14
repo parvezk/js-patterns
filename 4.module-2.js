@@ -1,7 +1,7 @@
 /**
  * Module Pattern Style 2
  */
-w
+
 // https://coderwall.com/p/m23ubw?
 // http://toddmotto.com/mastering-the-module-pattern/
 
