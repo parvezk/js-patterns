@@ -1,10 +1,9 @@
 language: node_js
 node_js:
-  - 0.10
-  - 0.11
+  - 4
 
 before_install:
-  - npm install -g gulp
+  npm -g install npm@latest
 
 script:
-  - gulp ci
+  - gulp default
