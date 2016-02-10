@@ -1,4 +1,3 @@
-
 //PROTOTYPE: Constructor Function Vs Factory Function
 
 function Greeter(name) {
@@ -30,33 +29,37 @@ george.name = 'George';
 // of this in a name such as myApplication, then
 // we work around that issue:
 
-var myApplication = function(){
+var myApplication = function () {
     var name = 'Chris';
     var age = '34';
     var status = 'single';
-    function createMember(){
+
+    function createMember() {
         // [...]
     }
-    function getMemberDetails(){
+
+    function getMemberDetails() {
         // [...]
     }
 }();
 
-function getMemberDetails(){
-  // [...]
+function getMemberDetails() {
+    // [...]
 }
 
 // ANONYMOUS FUNCTION
 // Wrapped inside Nameless Anonymous Function
 
-(function(){
-  var name = 'Chris';
-  var age = '34';
-  var status = 'single';
-  function createMember(){
-    // [...]
-  }
-  function getMemberDetails(){
-    // [...]
-  }
+(function () {
+    var name = 'Chris';
+    var age = '34';
+    var status = 'single';
+
+    function createMember() {
+        // [...]
+    }
+
+    function getMemberDetails() {
+        // [...]
+    }
 })(window);

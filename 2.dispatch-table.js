@@ -3,7 +3,7 @@
  */
 
 var commandTable = {
-    next:     nextAnim,
+    next: nextAnim,
     previous: prevAnim
 };
 

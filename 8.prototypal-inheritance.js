@@ -22,28 +22,28 @@ function Slider(param) {
 
 Slider.prototype = {
 
-    init: function(Slider, elem) {
+    init: function (Slider, elem) {
 
         this.container = $(elem.displayimg);
-        this.nav       = $(elem.navlist);
+        this.nav = $(elem.navlist);
         this.current = 0;
 
     },
 
-    setup: function(obj, elem) {
+    setup: function (obj, elem) {
     },
 
-    bindEvents: function(elem) {
+    bindEvents: function (elem) {
     }
 
 }; // end of prototype
 
-$(function() { // equal to $(document).ready(function(){})
+$(function () { // equal to $(document).ready(function(){})
 
     //object instanation and direct function call 
     var someSlider = new Slider({
         displayimg: "ul.largeImg",
-        navlist   : ".gallery-nav"
+        navlist: ".gallery-nav"
     });
 });
 
@@ -59,7 +59,7 @@ function Human() {
         return this.fname + " " + this.lname;
     };
 }
- 
+
 // Define the Employee class
 function Employee(num) {
     this.getNum = function () {
@@ -68,10 +68,10 @@ function Employee(num) {
 };
 // Let Employee inherit from Human
 Employee.prototype = new Human();
- 
+
 // Instantiate an Employee object
 var john = new Employee("4815162342");
-    john.setName("John", "Doe");
+john.setName("John", "Doe");
 alert(john.getFullName() + "'s employee number is " + john.getNum());
 // This time, I've created a Human class which contains properties
 // common to humans--I moved fname and lname there since all humans,

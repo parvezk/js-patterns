@@ -1,25 +1,24 @@
-
 // CONSTRUCTOR PATTERN
 
 //declaring the constructor  
-function ArrayMaker(arg1, arg2) {  
-    this.someProperty = 'whatever';  
-    this.theArray = [ this, arg1, arg2 ];  
-}  
+function ArrayMaker(arg1, arg2) {
+    this.someProperty = 'whatever';
+    this.theArray = [this, arg1, arg2];
+}
 // declaring instance methods  
-ArrayMaker.prototype = {  
-    someMethod: function () {  
-        alert( 'someMethod called');  
-    },  
-    getArray: function () {  
-        return this.theArray;  
-    }  
-};  
-  
-var am = new ArrayMaker( 'one', 'two' );  
-var other = new ArrayMaker( 'first', 'second' );  
-  
-am.getArray();  
+ArrayMaker.prototype = {
+    someMethod: function () {
+        alert('someMethod called');
+    },
+    getArray: function () {
+        return this.theArray;
+    }
+};
+
+var am = new ArrayMaker('one', 'two');
+var other = new ArrayMaker('first', 'second');
+
+am.getArray();
 // => [ am, 'one' , 'two' ] 
 
 /*Object Instantiation*/
@@ -30,16 +29,17 @@ function Employee(num, fname, lname) {
         return fname + " " + lname;
     }
 };
- 
+
 // Instantiate an Employee object
 var john = new Employee("4815162342", "John", "Doe");
 alert("The employee's full name is " + john.getFullName());
 
-function Slider(){};
+function Slider() {
+};
 
 Slider.prototype = {
 
-    init: function(elem){
+    init: function (elem) {
 
         var $elem = $.extend({}, elem);
         this.container = $($elem.container);
@@ -55,7 +55,7 @@ Slider.prototype = {
 
         var commandTable = {
             next: function () {
-                return pos += ~~ (dir === 'next');
+                return pos += ~~(dir === 'next');
             },
             prev: function () {
                 return pos += -1;
@@ -73,15 +73,15 @@ Slider.prototype = {
 
     },
 
-    clicked: function(elem, self){
+    clicked: function (elem, self) {
 
-            self.setCurrent($(elem).data('dir'));
-            self.transition();
+        self.setCurrent($(elem).data('dir'));
+        self.transition();
     }
 
 }; // end of prototype
 
 $(function () {
     var slider = new Slider;
-    slider.init();   
+    slider.init();
 });
